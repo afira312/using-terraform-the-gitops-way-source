@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/smorenburg/using-terraform-the-gitops-way-source
+  url: ssh://git@github.com/afira312/using-terraform-the-gitops-way-source
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
